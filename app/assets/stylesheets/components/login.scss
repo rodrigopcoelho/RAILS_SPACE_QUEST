@@ -1,0 +1,23 @@
+.bg-login{
+  background-image: url("Window.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center; /* Center both vertically and horizontally */
+  width: 496px;
+  height: 100%; /* Make sure the container has a height set */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.backhome{
+  position: absolute;
+  top: -363px;
+  left: 10px;
+  background-image: url(Backward_BTN.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 50px;
+  height: 100%;
+}
